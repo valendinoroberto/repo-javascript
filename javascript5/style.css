@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: blue; /* Colore di sfondo */
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: lightblue; /* Colore di sfondo del contenitore */
+  padding: 20px;
+  border-radius: 10px; /* Bordo arrotondato */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra */
+}
+
+.h1 {
+  margin-bottom: 20px;
+}
+
+.input_text {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.submit {
+  width: 30%;
+}
+
+.table {
+  margin-top: 30px;
+}
+
+.table td {
+  padding: 8px;
+}
+
+.table-bordered {
+  border: 2px solid #000;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
